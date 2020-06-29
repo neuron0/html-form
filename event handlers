@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<script>
+  var c;
+
+function changemain(){
+ c = document.getElementById('counter');
+ change();
+}
+
+  function change(){
+    //c=document.getElementById('counter');
+   c.innerHTML="<h1 style='color:red'>hello</h1>";
+  }
+</script>
+  </head>
+  <body id="root">
+    <center>
+    <div class="#">
+    <div id="counter">
+    </div>
+    <button type="button" name="button" onclick=changemain()>click here</button>
+    </div>
+    </center>
+  </body>
+</html>
